@@ -71,3 +71,20 @@ for k in visited:
         count += visited[k]
 
 print("Part 1:",count)
+
+total_occ = 0
+for k in visited:
+    if (k.count("/") == 2):
+        print(k,":",visited[k])
+        total_occ += visited[k]
+print(total_occ)
+maxMem = 70000000
+need = 30000000
+limit = maxMem-need
+print("Limit",limit)
+
+potential = []
+for k in visited:
+    if ( maxMem - total_occ + visited[k] > need ):
+        potential.append({k: visited[k]})
+print(potential)
