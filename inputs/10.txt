@@ -1,0 +1,177 @@
+Monkey 0:
+  Starting items: 79, 98
+  Operation: new = old * 19
+  Test: divisible by 23
+    If true: throw to monkey 2
+    If false: throw to monkey 3
+
+Monkey 1:
+  Starting items: 54, 65, 75, 74
+  Operation: new = old + 6
+  Test: divisible by 19
+    If true: throw to monkey 2
+    If false: throw to monkey 0
+
+Monkey 2:
+  Starting items: 79, 60, 97
+  Operation: new = old * old
+  Test: divisible by 13
+    If true: throw to monkey 1
+    If false: throw to monkey 3
+
+Monkey 3:
+  Starting items: 74
+  Operation: new = old + 3
+  Test: divisible by 17
+    If true: throw to monkey 0
+    If false: throw to monkey 1
+
+
+addx 1
+noop
+addx 2
+addx 11
+addx -4
+noop
+noop
+noop
+noop
+addx 3
+addx -3
+addx 10
+addx 1
+noop
+addx 12
+addx -8
+addx 5
+noop
+noop
+addx 1
+addx 4
+addx -12
+noop
+addx -25
+addx 14
+addx -7
+noop
+addx 11
+noop
+addx -6
+addx 3
+noop
+addx 2
+addx 22
+addx -12
+addx -17
+addx 15
+addx 2
+addx 10
+addx -9
+noop
+noop
+noop
+addx 5
+addx 2
+addx -33
+noop
+noop
+noop
+noop
+addx 12
+addx -9
+addx 7
+noop
+noop
+addx 3
+addx -2
+addx 2
+addx 26
+addx -31
+addx 14
+addx 3
+noop
+addx 13
+addx -1
+noop
+addx -5
+addx -13
+addx 14
+noop
+addx -20
+addx -15
+noop
+addx 7
+noop
+addx 31
+noop
+addx -26
+noop
+noop
+noop
+addx 5
+addx 20
+addx -11
+addx -3
+addx 9
+addx -5
+addx 2
+noop
+addx 4
+noop
+addx 4
+noop
+noop
+addx -7
+addx -30
+noop
+addx 7
+noop
+noop
+addx -2
+addx -4
+addx 11
+addx 14
+addx -9
+addx -2
+noop
+addx 7
+noop
+addx -11
+addx -5
+addx 19
+addx 5
+addx 2
+addx 5
+noop
+noop
+addx -2
+addx -27
+addx -6
+addx 1
+noop
+noop
+addx 4
+addx 1
+addx 4
+addx 5
+noop
+noop
+noop
+addx 1
+noop
+addx 4
+addx 1
+noop
+noop
+addx 5
+noop
+noop
+addx 4
+addx 1
+noop
+addx 4
+addx 1
+noop
+noop
+noop
+noop
